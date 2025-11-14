@@ -81,8 +81,6 @@ body {
     color: #1F2937;
     padding:50px;
     padding-bottom:100px;
-    
-
 }
 
 .section-2 h2 {
@@ -109,4 +107,29 @@ body {
 .section-2 img {
     border: 2px solid #3882f6;
     border-radius: 16px;
+}
+
+.section-3 {
+    background-color: #e5e7eb;
+    padding-top: 100px;
+    padding-bottom:100px;
+    display:flex;
+    justify-content: center;
+}
+
+.section-3 .quotebox {
+    width: 900px;
+    display:flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.section-3 .quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style:italic;
+}
+.section-3 .attribution {
+    font-weight: bold;
+    align-self:flex-end;
 }
